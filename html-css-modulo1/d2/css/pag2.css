@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    color: white;
+}
+
+.video{
+    margin: 0px 650px 0px 670px;
+}
+
+a img{
+    margin: 0px 650px 0px 930px;
+}

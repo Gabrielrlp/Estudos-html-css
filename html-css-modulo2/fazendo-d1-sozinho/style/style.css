@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('/fontes/idroid.otf') format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-color: rgb(132, 226, 132);
+}
+
+header{
+    background-color: rgb(9, 129, 9);
+    color: white;
+}
+
+.cabecalho{
+    text-align: center;
+    padding: 20px;
+}
+
+section h1{
+    padding: 0px 0px 25px 0px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0px 8px;
+}
+
+main{
+    margin: 0% 15% 0% 15%;
+    max-width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+h2{
+    color: green;
+    font-family: 'MinhaFonte';
+    padding: 3px;
+    margin: 5px;
+}
+
+h3{
+    color: rgb(4, 90, 4);
+    background: rgb(179, 221, 179);
+    margin: 10px;
+    font-family: 'MinhaFonte';
+}
+
+h4{
+    background: green;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+p{
+    display: inline-block;
+    margin: 0px 5% 0px 0px;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+.links{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+.container{
+    background: rgb(177, 202, 177);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+img{
+    max-width: 100%;
+    padding: 2%;
+}
+
+.img-resp{
+    align-items: center;
+}
+
+.foto-android{
+    padding: 0% 25%;
+}
+
+.video{
+    display: flex;
+    margin: 5% 15%;
+    /* margin: 0% 15% 0% 15%; */
+    max-width: 100%;
+    background-color: green;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.lista1{
+    display: inline-block;
+    padding: 2% 12% 2% 12%;
+}
+
+.lista2{
+    display: inline-block;
+    padding: 2% 12% 2% 12%;
+}
+
+footer{
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
