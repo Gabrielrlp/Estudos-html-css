@@ -1,0 +1,150 @@
+/* RESET CSS */
+*{
+    /* TODAS AS MARGENS RESETAR */
+   margin: 0;
+   /* TODAS AS MARGENS DE DENTRO DE CAIXAS RESETAR */
+   padding: 0;
+    /* basicamente so usa no reset */
+    box-sizing: border-box;
+   /* FONTE DE TODO O CODIGO */
+   font-family: Arial, Helvetica, sans-serif;
+}   
+
+body{
+    /* muda a cor de fundo do site */
+    background-color: white;
+
+
+}
+
+h1{
+    color: white;
+    /* adiciona uma borda na parte definida, e vc define cor, pixeis e se ela é solida/ essas bordas podem ser defidinidas lado por lado  */
+    border: 1px solid black;
+    /* ele serve para arendodar as bordas */
+    border-radius: 30px;
+    /* ele serve para alinhar o texto ao meio da pagina*/
+    text-align: center;
+    background-color: black;
+    /* ele serve para dar distancia do elemento para a margem, e ela pode ser usada em qualquer lado neste exemplo estou definindo todos os lados na mesma linha */
+    margin:30px 70px 30px 20px;
+    /* funciona como o margin, mas por dentro da borda, na parte de dentro */
+    padding: 10x 20px 30px 40px;
+}
+
+p{
+    /* tamanho da fonte do texto */
+    font-size: 20px;
+    color: black;
+    /* funciona como o justificar do word */
+    text-align: justify;
+    /* ele decora o texto, com tipos de linhas e etc */
+    text-decoration: underline;
+    /* transformar o texto em formas de escrita diferente, como tudo maiusculo */
+    text-transform: capitalize;
+    /* salta paragrafo no texto (identação*/
+    text-indent: 40px;
+}
+/* exemplificaçao das coisas que aprendi encima */
+.botao{
+    margin-left: 33%;
+    background: green;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    /* ele é usado para apagar a linha embaixo da escrita do botao */
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.botao:hover{
+    background: blue;
+}
+
+.teste{
+    /* ele aumenta o tamanho da caixa e se adapata ao tamanho da pagina, ou se for transformado em app, por isso é bom*/
+    max-width: 800px;
+    background: cyan;
+}
+
+a.botao1{
+    background: black;
+    color: white;
+    border: 5px solid red;
+    text-decoration: none;
+    border-radius: 10px;
+    /* serve para mudar o cursor quando ele assa encim do botao */
+    cursor: col-resize;
+    padding: 10px;
+    margin: 300px;
+}
+
+a.botao1:hover{
+    background: red;
+    border: 10px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.caixa{
+    border: 5px solid red;
+}
+
+.ex2{
+    /* ela faz com que a largur se torne o maximp, e nao um padrao, ou seja se a tela for menor, ela ira se adaptar, ja o WIDTH normal iria abrir uma brra para arrastar o site ate 900px*/
+    max-width: 900px;
+}
+
+.exemplo-semhtml{
+    /* largura */
+    width: 100px;
+    /* altura */
+    height: 100px;
+}
+
+ul{
+    background: black;
+}
+
+li{
+    /* temos itens que sao considerdos blocos, e itens que sao considerados linhas, essa definição torna o item coringa, tanto linha como coluna */
+    display: inline-block;
+    padding: 20px;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+li a:hover{
+    background: #ccc;
+    color: black;
+}
+
+.login{
+    /* faz com que o item definido flutue para o lado definido */
+    float: right;
+}
+
+.login a:hover{
+    background: orangered;
+    color: white;
+}
+
+a.botao10{
+    padding: 15px;
+    background: green;
+    color: white;
+    text-decoration: none;
+}
+
+a.botao10:hover{
+    /* mexe na opacidade do bloco ou da imagem, de 0 a 100%, que e representado de 0 a 1  */
+    opacity: 0.4;
+}

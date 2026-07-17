@@ -1,0 +1,102 @@
+/* RESET CSS */
+*{
+    /* TODAS AS MARGENS RESETAR */
+   margin: 0;
+   /* TODAS AS MARGENS DE DENTRO DE CAIXAS RESETAR */
+   padding: 0;
+    /* basicamente so usa no reset */
+    box-sizing: border-box;
+   /* FONTE DE TODO O CODIGO */
+   font-family: Arial, Helvetica, sans-serif;
+}   
+
+body{
+    /* ele removve a barra de rolagem do eixo definido */
+    overflow-y: hidden;
+}
+
+.whats{
+    background: green;
+    color: white;
+    width: 80px;
+    height: 80px;
+    /* faz com que a posção fiue fixa independente da rolagem */
+    position: fixed;
+    /* pra baixo */
+    bottom: 10px;
+    /* direita */
+    right: 10px;
+}
+
+ul{
+    background: black;
+    /* ele serve para tirar todas as configuraçoes padrao de uma lista */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    /* corta a sobra */
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a, .dropbtn{
+    display: inline-block;
+    color: white;
+    padding: 20px 25px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover, .dropdowm:hover .dropbtn{
+    background: red;
+}
+
+li.dropdowm{
+    display: inline-block;
+}
+
+.dropdowm-content{
+    display: none;
+    position: absolute;
+    background: white;
+    width: 150px;
+}
+
+.dropdowm-content a{
+    color: black;
+    display: block;
+    text-align: left;   
+}
+
+.dropdowm-content a:hover{
+    color: white;
+}
+
+.dropdowm:hover .dropdowm-content{
+    display: block;
+}
+
+@media only screen and (max-width: 600px){
+
+}
+
+@media only screen and (min-width: 600px){
+
+}
+
+@media only screen and (min-width: 768px){
+
+}
+
+@media only screen and (min-width: 992px){
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+/* as medias sao usadas para programar o tanhi dis itens do seu site dependendo do tamanho do dispositiov, e isso é definido por pixeis e pode ser definido em varias formas para deixar o site responsivo para todos os tipos de dispositivos moveis */

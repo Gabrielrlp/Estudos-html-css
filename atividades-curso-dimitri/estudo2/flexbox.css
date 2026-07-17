@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    background-color: rgb(101, 161, 10);
+    padding: 80px;
+    text-align: center;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    /* ele é usado para definir qual direção sera usada no flex, como exemplo o row que é linha e o column que é de coluna podendo ser usado formas reverse tambem*/
+    flex-direction: row;
+    justify-content: center;
+    background: black;
+}
+
+.navbar a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background: gray;
+    color: black;
+    font-weight: bold;
+}
+
+.corpo{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card{
+    flex: 48%;
+    background: #ccc;
+    height: 400px;
+    margin: 1%;
+}
+
+@media screen and (max-width:700px){
+    .navbar{
+        flex-direction: column;
+    }
+}
