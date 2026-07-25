@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     /* box-sizing: border-box; */
+    font-family: 'Times New Roman', Times, serif;
 }
 
 html, body{
@@ -15,6 +16,7 @@ header{
     color: white;
     background-color: black;
     text-align: center;
+    font-size: 3vw;
 }
 
 header > h1{
@@ -32,7 +34,7 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-    
+    font-size: 3vw;
 }
 
 a{
@@ -51,8 +53,27 @@ a:hover{
 }
 
 .imagem{
-    background-color: black;
+    background-color: rgb(44, 44, 44);
     color: white;
+    box-shadow: 6px 6px 13px 0px rgba(0 ,0 ,0 , 0.473);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.imagem > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(7, 7, 7, 0.377);
+    text-shadow: 1px 1px 0px rgb(20, 20, 20);
+}
+
+section#img01{
+    background-image: url(/html-css-modulo3/desafio1/imagens/background001.jpg);
+    background-position: right center;
+}
+
+section#img02{
+    background-image: url(/html-css-modulo3/desafio1/imagens/background002.jpg);
 }
 
 footer{
